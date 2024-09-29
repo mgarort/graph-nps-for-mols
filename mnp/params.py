@@ -1,0 +1,13 @@
+fixed_params = {'num_atom_V_features': 25,
+                'num_bond_V_features': 25,
+                'num_QK_features': 30,
+                'mp_iterations': 3,
+                'use_layernorm': True,
+                'r_len': 200,
+                'z_len': 200,
+                'y_len': 1,
+                'dockstring_num_contexts_range': (20,150),
+                'dockstring_num_targets_range': (20,150),
+                'dockstring_meta_batch_size': 2,
+                'dockstring_simple_batch_size': 128,
+                'lr': 0.001}
